@@ -9,6 +9,7 @@ gem 'rails', '~> 5.2.3'
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
+gem 'carrierwave', '~> 1.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -33,7 +34,7 @@ gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-
+gem 'cloudinary', '~> 1.9.1'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
