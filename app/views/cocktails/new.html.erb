@@ -1,5 +1,8 @@
 <%= simple_form_for [@cocktail ] do |f| %>
     <%= f.input :name, placeholder: "Cocktail's name" %>
  <%= f.input :image_url, placeholder: "https://your_image.jpg" %>
+ <h6>Or:</h1>
+  <%= f.input :photo %>
+  <%= f.input :photo_cache, as: :hidden %>
   <%= f.button :submit, :class => "btn btn-primary" %>
 <% end %>
