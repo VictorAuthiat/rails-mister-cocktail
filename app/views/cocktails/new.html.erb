@@ -1,0 +1,11 @@
+<%= simple_form_for [@cocktail ] do |f| %>
+    <%= f.input :name, placeholder: "Cocktail's name" %>
+ <%= f.input :image_url, placeholder: "https://your_image.jpg" %>
+  <%= f.button :submit, :class => "btn btn-primary" %>
+<% end %>
+<%= link_to "back", cocktails_indexx_path %>
+
+
+
+
+
